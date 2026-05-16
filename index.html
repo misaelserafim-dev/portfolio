@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Misael Serafim — Frontend Developer especializado em React.js, Next.js e TypeScript." />
+    <meta name="author" content="Misael Serafim" />
+    <link favicon="favicon.ico" href="favicon.ico" />
+    <title>Misael Serafim — Frontend Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+    <div class="page-shell">
+
+      <aside class="sidebar" aria-label="Barra lateral de navegação">
+        <div class="sidebar__brand">
+          <div class="sidebar__avatar">
+            <img
+              src="images/user.jpg"
+              alt="Foto de perfil de Misael Serafim"
+              width="220"
+              height="220"
+            />
+          </div>
+        </div>
+
+        <!-- <nav class="sidebar__nav" aria-label="Navegação principal">
+          <a class="sidebar__nav-link" href="#sobre">Sobre</a>
+          <a class="sidebar__nav-link" href="#projetos">Projetos</a>
+        </nav> -->
+
+        <button id="theme-toggle" class="sidebar__theme-toggle" type="button" aria-pressed="false" aria-label="Ativar modo escuro">
+          <span aria-hidden="true">☾</span>
+          <span class="sr-only">Alternar tema</span>
+        </button>
+
+        <div class="sidebar__footer">
+          <div class="sidebar__socials" aria-label="Redes sociais">
+            <a class="sidebar__social-link" href="https://www.instagram.com/ser.misael" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M7.5 11.9C7.5 9.84 9.34 8.1 11.5 8.1C13.66 8.1 15.5 9.84 15.5 11.9C15.5 14.04 13.66 15.8 11.5 15.8C9.34 15.8 7.5 14.04 7.5 11.9Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M16.5 7.2H16.51" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <a class="sidebar__social-link" href="https://www.linkedin.com/in/misaelserafim" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M8 9.75V16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M8 9.75H8.02" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M11.5 16V12.2C11.5 10.9 12.6 10 13.9 10C15.2 10 16.2 10.9 16.2 12.2V16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M7 16H9.25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content" id="main" tabindex="-1">
+
+        <section class="hero" id="home" aria-labelledby="hero-heading">
+          <div class="hero__center">
+            <h1 class="hero__panel-title" id="hero-heading">Misael Serafim</h1>
+            <p class="hero__eyebrow">Desenvolvedor Front-end | React.js | Next.js | TypeScript</p>
+            <p class="hero__contact-line">São José dos Pinhais – PR, Brasil · (41) 99568-9183 · <a href="mailto:misael.serafim95@gmail.com">misael.serafim95@gmail.com</a></p>
+            <p class="hero__resume-link"><a href="curriculo.pdf" target="_blank" rel="noopener noreferrer">Ver currículo</a></p>
+            <!-- <ul class="hero__panel-stacks hero__icon-stacks">
+              <li class="stack-item stack-item--nextjs"><span class="stack-icon stack-icon--nextjs" aria-hidden="true"></span>Next.js</li>
+              <li class="stack-item stack-item--react"><span class="stack-icon stack-icon--react" aria-hidden="true"></span>React</li>
+              <li class="stack-item stack-item--typescript"><span class="stack-icon stack-icon--typescript" aria-hidden="true"></span>TypeScript</li>
+            </ul> -->
+          </div>
+        </section>
+
+        <section class="section summary" id="sobre" aria-labelledby="sobre-heading" data-reveal>
+          <div class="about__wrapper">
+            <div class="about__topics">
+              <div class="about__topic">
+                <strong>Front-end</strong>
+                <p>React.js | Next.js | Nuxt.js | JavaScript ES6+ | TypeScript | Vitest | REST APIs | Axios | GraphQL | Tailwind | SASS | CSS3</p>
+              </div>
+              <div class="about__topic">
+                <strong>Back-end & DevOps</strong>
+                <p>PHP | MySQL | AWS | Git | GitHub | GitLab | Docker</p>
+              </div>
+            </div>
+            <div class="about__formation">
+              <strong class="about__formation-label">Formação</strong>
+              <p>Bacharelado em Sistemas de Informação — FACET (Faculdade de Ciências Sociais e Aplicadas do Paraná) — 2015 - 2018</p>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="section projetos" id="projetos" aria-labelledby="projetos-heading" data-reveal>
+          <div class="section__header">
+            <h2 class="section-heading" id="projetos-heading">Alguns Projetos</h2>
+          </div>
+
+          <div class="section__grid section__grid--projects">
+            <article class="project-card">
+              <img class="project-card__image" src="images/natal-condor.png" alt="Natal Condor" width="680" height="420" loading="lazy" />
+              <div class="project-card__meta">
+                <h3 class="project-card__title">Natal Condor</h3>
+                <div class="project-card__hover">
+                  <a class="project-card__link" href="https://natal.condor.com.br/" target="_blank" rel="noopener noreferrer">Visitar</a>
+                  <ul class="project-card__stacks">
+                    <li>React/Next</li>
+                    <li>TypeScript</li>
+                    <li>Docker</li>
+                    <li>SASS</li>
+                    <li>OWASP - Audit</li>
+                    <li>GitHub Workflows</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img class="project-card__image" src="images/brasil-center.png" alt="BrasilCenter" width="680" height="420" loading="lazy" />
+              <div class="project-card__meta">
+                <h3 class="project-card__title">BrasilCenter</h3>
+                <div class="project-card__hover">
+                  <a class="project-card__link" href="https://www.brasilcenter.com.br/" target="_blank" rel="noopener noreferrer">Visitar</a>
+                  <ul class="project-card__stacks">
+                    <li>PHP</li>
+                    <li>Microsoft IIS</li>
+                    <li>SEO · Acessibilidade · OWASP</li>
+                    <li>Git/GitHub</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img class="project-card__image" src="images/koodari.png" alt="Koodari" width="680" height="420" loading="lazy" />
+              <div class="project-card__meta">
+                <h3 class="project-card__title">Koodari</h3>
+                <div class="project-card__hover">
+                  <a class="project-card__link" href="https://www.koodari.com.br/" target="_blank" rel="noopener noreferrer">Visitar</a>
+                  <ul class="project-card__stacks">
+                    <li>Nuxt</li>
+                    <li>TypeScript · CSS</li>
+                    <li>AWS</li>
+                    <li>AWS · Core Web Vitals · SEO · OWASP</li>
+                    <li>Git/GitHub</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img class="project-card__image" src="images/nautica.png" alt="Náutica" width="680" height="420" loading="lazy" />
+              <div class="project-card__meta">
+                <h3 class="project-card__title">Náutica</h3>
+                <div class="project-card__hover">
+                  <a class="project-card__link" href="https://nautica.com.br/" target="_blank" rel="noopener noreferrer">Visitar</a>
+                  <ul class="project-card__stacks">
+                    <li>WordPress (template)</li>
+                    <li>SEO · Core Web Vitals</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img class="project-card__image" src="images/comanda.png" alt="Comanda WebControle" width="680" height="420" loading="lazy" />
+              <div class="project-card__meta">
+                <h3 class="project-card__title">Comanda - WebControl</h3>
+                <div class="project-card__hover">
+                  <a class="project-card__link" href="https://comanda.webcontrolempresas.com.br/" target="_blank" rel="noopener noreferrer">Visitar</a>
+                  <ul class="project-card__stacks">
+                    <li>Laravel</li>
+                    <li>JavaScript (puro)</li>
+                    <li>MySQL · DTO · OWASP</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img class="project-card__image" src="images/battiston.png" alt="Battiston" width="680" height="420" loading="lazy" />
+              <div class="project-card__meta">
+                <h3 class="project-card__title">Battiston Propaganda</h3>
+                <div class="project-card__hover">
+                  <ul class="project-card__stacks">
+                    <li>Nuxt 3</li>
+                    <li>Tailwind CSS</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+      </main>
+
+    </div>
+
+    <footer class="footer" role="contentinfo" data-reveal>
+      <div class="footer__inner container">
+        <p class="footer__copy">© <span id="footer-year"></span> Misael Serafim</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
